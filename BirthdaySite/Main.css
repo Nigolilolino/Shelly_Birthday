@@ -50,6 +50,7 @@
     #picture{
         margin-left: 0px;
         width: 840px;
+        touch-action: manipulation;
     }
     
     #clicker{
@@ -57,6 +58,7 @@
         height: 150px;
         margin-left: 265px;
         font-size: 40pt;
+        touch-action: manipulation;
     }
 
     #snowflakeContainer {
