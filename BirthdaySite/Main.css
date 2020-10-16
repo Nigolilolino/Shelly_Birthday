@@ -1,0 +1,79 @@
+#jizz{
+    float: left;
+    display: inline;
+    z-index: 4;
+    position: absolute;
+    margin-left: 50px;
+    margin-top: 0%;
+    width: 20px;
+}
+
+#jizzSpawn{
+    width: 100%;
+}
+
+#display-area{
+    width: 100%;
+}
+
+#picture{
+    margin-left: 0px;
+    width: 110px;
+}
+
+#clicker{
+    width: 70px;
+    height: 30px;
+    font-size: 10pt;
+}
+
+
+@media only screen and (min-width: 600px) {
+    #jizz{
+        float: left;
+        display: inline;
+        z-index: 4;
+        position: absolute;
+        margin-left: 400px;
+        margin-top: 0%;
+        width: 120px;
+    }
+    
+    #jizzSpawn{
+        width: 100%;
+    }
+    
+    #display-area{
+        width: 100%;
+    }
+    
+    #picture{
+        margin-left: 0px;
+        width: 840px;
+    }
+    
+    #clicker{
+        width: 300px;
+        height: 150px;
+        margin-left: 265px;
+        font-size: 40pt;
+    }
+
+    #snowflakeContainer {
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        display: none;
+      }
+    
+      .snowflake {
+        position: fixed;
+        background-color: #CCC;
+        user-select: none;
+        z-index: 1000;
+        pointer-events: none;
+        border-radius: 50%;
+        width: 10px;
+        height: 10px;
+      }
+}
